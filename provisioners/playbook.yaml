@@ -1,0 +1,8 @@
+---
+- name: setup jenkins node
+  hosts: worker
+  become: true
+  become_user: root
+
+  roles:
+    - docker

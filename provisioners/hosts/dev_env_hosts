@@ -1,0 +1,2 @@
+[worker]
+localhost ansible_connection=local

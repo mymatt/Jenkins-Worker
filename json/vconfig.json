@@ -1,0 +1,14 @@
+[
+    {
+        "name": "worker",
+        "box": "ubuntu/xenial64",
+        "memory": 1024,
+        "cpus": 2,
+        "ip_addr": "192.168.60.10",
+        "guest_port": "80",
+        "host_port": "8888",
+        "playbook": "provisioners/playbook.yaml",
+        "hosts": "provisioners/hosts/dev_env_hosts",
+        "vm": "virtualbox"
+    }
+]
